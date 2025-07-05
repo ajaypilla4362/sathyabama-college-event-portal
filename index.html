@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>College Event Portal</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="login-body">
+  <!-- Right-side Login Box -->
+  <div class="bg-blue-900 bg-opacity-60 rounded-xl shadow-lg p-8 w-96 mr-24 backdrop-blur-sm">
+    <h1 class="text-white text-2xl font-bold mb-6 text-center">
+  Sathyabama College Event Portal
+    </h1>
+
+
+    <form id="login-form">
+      <!-- Email Field -->
+      <div class="mb-4">
+        <label class="block text-white mb-1" for="email">Email</label>
+        <div class="flex items-center bg-white bg-opacity-20 rounded-md px-3 py-2">
+          <svg class="w-5 h-5 text-white mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M4 4h16v16H4z" stroke="none"/>
+            <path d="M4 4l8 8l8 -8" />
+          </svg>
+          <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            class="bg-transparent w-full text-white placeholder-white outline-none"
+            required
+          />
+        </div>
+      </div>
+
+      <!-- Password Field -->
+      <div class="mb-6">
+        <label class="block text-white mb-1" for="password">Password</label>
+        <div class="flex items-center bg-white bg-opacity-20 rounded-md px-3 py-2">
+          <svg class="w-5 h-5 text-white mr-2" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path d="M12 17a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" />
+            <path d="M16 11V9a4 4 0 0 0-8 0v2m-1 0h10a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1z" />
+          </svg>
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            class="bg-transparent w-full text-white placeholder-white outline-none"
+            required
+          />
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <button
+        type="submit"
+        class="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md transition duration-200"
+      >
+        Login
+      </button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
