@@ -2,13 +2,13 @@ body.login-body {
   min-height: 100vh;
   width: 100%;
   display: flex;
-  justify-content: center; /* Centered for all screens */
-  align-items: center;
-  background-image: url('bg.png.jpg.jpg'); /* Confirm image is in same folder */
+  justify-content: center;     /* horizontally center the login box */
+  align-items: center;         /* vertically center the login box */
+  background-image: url('bg.png.jpg.jpg'); /* your image file */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding: 1rem; /* Adds space on small screens */
+  padding: 1rem;
   box-sizing: border-box;
 }
